@@ -27,6 +27,7 @@ Bash script for simplifying wifite. Each attack is set to automatically take pla
  
 # setup
 cd Simplefite/
+
 sudo chmod +x simplefite
 
 # run
