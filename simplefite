@@ -1,10 +1,6 @@
 #!/bin/bash
 
-#SuperFi - Wifi attack script
-
-while true
-
-do
+#simplefite - Wifi attack script
 
 blueback='\e[0;44m'
 greyback='\e[1;40m'
@@ -12,6 +8,7 @@ red='\e[1;31m'
 green='\e[1;32m'
 aqua='\e[1;36m'
 blue='\e[1;34m'
+
 echo -e $greyback""$aqua
 echo "                                        "
 echo "        %%%%%%%%%%%%%%%%%%%%%%%%%       "
@@ -26,6 +23,11 @@ echo "            %%%%%%%%%%%%%%%%%           "
 echo "              %% %%%%%%% %%             "
 echo "                %%     %%               "
 echo "                  %%%%%                 "
+
+while true
+
+do
+
 echo "                SimpleFite              "
 echo -e "                   BETA                 "$blue
 
