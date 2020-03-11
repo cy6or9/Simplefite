@@ -53,8 +53,8 @@ read superfite;
 		;;
 		6) sudo xterm -e wifite -mac -p 120 --wpadt 20 --wpat 134 --clients-only -inf --no-pmkid --no-wps
 		;;
-        7) sudo xterm -e wifite -mac -p 120 --wps --wps-only
-        ;;
+        	7) sudo xterm -e wifite -mac -p 120 --wps --wps-only
+        	;;
 		8) sudo wifite --cracked
 		;;
 	esac
