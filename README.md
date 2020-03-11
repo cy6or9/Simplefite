@@ -21,7 +21,7 @@ Bash script for simplifying wifite
  *hashcat
  
 # setup
-cd simplefite
+cd Simplefite/
 sudo chmod +x simplefite
 
 # run
