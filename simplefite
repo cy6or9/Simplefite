@@ -38,9 +38,9 @@ echo "  6. Clients only loop(--no-pmkid --no-wps) "
 echo "  7. WPS only loop "
 echo "  8. Cracked "
 
-read superfite;
+read simplefite;
 
-	case $superfite in
+	case $simplefite in
 		1) sudo xterm -e wifite -mac -p 120 --clients-only
 		;;
 		2) sudo xterm -e wifite -mac -p 120
