@@ -28,8 +28,9 @@ while true
 
 do
 
+echo -e $blue""$greyback
 echo "                SimpleFite              "
-echo -e "                   BETA                 "$blue
+echo "                   BETA                 "
 
 echo "  1. Clients only "
 echo "  2. Basic wifite scan "
