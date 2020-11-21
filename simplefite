@@ -48,13 +48,13 @@ read simplefite;
 		;;
 		2) sudo xterm -e wifite -mac -p 120
 		;;
-		3) sudo xterm -e wifite -mac -p 120 --wpadt 20 --wpat 134 --clients-only -inf
+		3) sudo xterm -e wifite -inf -mac -p 120 --wpadt 20 --wpat 134 --clients-only
 		;;
-		4) sudo xterm -e wifite -mac -p 120 --wpadt 20 --wpat 134 --clients-only -inf --no-pmkid
+		4) sudo xterm -e wifite -inf -mac -p 120 --wpadt 20 --wpat 134 --clients-only --no-pmkid
 		;;
-		5) sudo xterm -e wifite -mac -p 120 --wpadt 20 --wpat 134 --clients-only -inf --no-wps 
+		5) sudo xterm -e wifite -inf -mac -p 120 --wpadt 20 --wpat 134 --clients-only --no-wps 
 		;;
-		6) sudo xterm -e wifite -mac -p 120 --wpadt 20 --wpat 134 --clients-only -inf --no-pmkid --no-wps
+		6) sudo xterm -e wifite -inf -mac -p 120 --wpadt 20 --wpat 134 --clients-only --no-pmkid --no-wps
 		;;
         	7) sudo xterm -e wifite -mac -p 120 --wps --wps-only
         	;;
