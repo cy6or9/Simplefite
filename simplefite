@@ -35,10 +35,10 @@ echo "                   BETA                 "
 echo "  1. Clients only "
 echo "  2. Basic wifite scan "
 echo "  3. Clients only loop "
-echo "  4. Clients only loop(--no-pmkid) "
-echo "  5. Clients only loop(--no-wps) "
+echo "  4. Clients only loop(--no-pmkid) "$green
+echo "  5. Clients only loop(--no-wps) "$blue
 echo "  6. Clients only loop(--no-pmkid --no-wps) "
-echo "  7. WPS only loop "
+echo "  7. WPS only loop "$red
 echo "  8. Cracked "
 
 read simplefite;
